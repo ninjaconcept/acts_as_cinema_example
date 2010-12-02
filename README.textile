@@ -1,0 +1,3 @@
+h2. ActsAsCinema Example
+
+This is a sample application for showing the "acts_as_cinema plugin":https://github.com/ninjaconcept/acts_as_cinema

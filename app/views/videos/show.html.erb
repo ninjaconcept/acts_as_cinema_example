@@ -1,0 +1,21 @@
+<% title "Video" %>
+
+<p>
+  <strong>Title:</strong>
+  <%=h @video.title %>
+</p>
+<p>
+  <strong>Url:</strong>
+  <%=h @video.original_input %>
+</p>
+<p>
+  <strong>Watch:</strong>
+  <br/>
+  <%= @video.video_tag %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_video_path(@video) %> |
+  <%= link_to "Destroy", @video, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", videos_path %>
+</p>

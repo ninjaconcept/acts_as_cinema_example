@@ -1,0 +1,38 @@
+<html>
+<head><title>test<title></head>
+<body>
+	
+	YOU TUBE
+	<br/>
+<object width="480" height="385">
+	<param name="movie" value="http://www.youtube.com/v/NC7fqQE995I&hl=en_US&fs=1&"></param>
+	<param name="allowFullScreen" value="true"></param>
+	<param name="allowscriptaccess" value="always"></param>
+	<embed src="http://www.youtube.com/v/NC7fqQE995I" type="application/x-shockwave-flash"
+		allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
+		
+		
+<br/>
+<br/>
+<br/>
+
+
+
+VIMEO
+<br/>
+<object width="400" height="225"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=10819887&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=10819887&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="225"></embed></object><p><a href="http://vimeo.com/10819887">Palolem India</a> from <a href="http://vimeo.com/phoric">Phoric</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+
+
+
+<br/>
+<br/>
+<br/>
+
+MYVIDEO
+<br/>
+<object style='width:470px;height:285px;' width='470' height='285'><param name='movie' value='http://www.myvideo.de/movie/7334646'></param><param name='AllowFullscreen' value='true'></param><param name='AllowScriptAccess' value='always'></param><embed src='http://www.myvideo.de/movie/7334646' width='470' height='285' type='application/x-shockwave-flash' allowscriptaccess='always' allowfullscreen='true'></embed></object><br/><a href='http://www.myvideo.de/watch/7334646/Justin_Bieber_featuring_Ludacris_Baby' title='Justin Bieber featuring Ludacris -- Baby - MyVideo'>Justin Bieber featuring Ludacris -- Baby - MyVideo</a>
+
+
+
+</body>
+</html>

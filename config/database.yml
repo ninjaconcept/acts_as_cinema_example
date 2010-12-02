@@ -1,0 +1,36 @@
+#   gem install mysql
+development:
+  adapter: mysql
+  database: cinema_development
+  username: root
+  password:
+  socket: /tmp/mysql.sock # other *NIX
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test: &TEST
+  adapter: mysql
+  database: cinema_test
+  username: root
+  password:
+  socket: /tmp/mysql.sock # other *NIX
+  
+production:
+  adapter: mysql
+  database: cinema
+  username: root
+  password:
+  socket: /tmp/mysql.sock # other *NIX
+
+cucumber:
+  <<: *TEST
+  
+plugin:
+  adapter: mysql
+  database: acts_as_cinema_test
+  username: root
+  password:
+  socket: /tmp/mysql.sock # other *NIX
+  
+  

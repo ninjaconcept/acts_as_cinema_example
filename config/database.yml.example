@@ -1,0 +1,36 @@
+development:
+  adapter: mysql
+  database: acts_as_cinema_development
+  username: root
+  password: root
+  host: localhost
+  encoding: utf8
+  
+test: &TEST
+  adapter: mysql
+  database: acts_as_cinema_test
+  username: root
+  password: root
+  host: localhost
+  encoding: utf8
+  
+staging:
+  adapter: mysql
+  database: acts_as_cinema_staging
+  username: acts_as_cinema
+  password: 
+  host: localhost
+  encoding: utf8
+  socket: /var/lib/mysql/mysql.sock
+  
+production:
+  adapter: mysql
+  database: acts_as_cinema_production
+  username: acts_as_cinema
+  password: 
+  host: localhost
+  encoding: utf8
+  socket: /var/lib/mysql/mysql.sock
+
+cucumber:
+  <<: *TEST
