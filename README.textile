@@ -5,4 +5,5 @@ This is a sample application for showing the "acts_as_cinema plugin":https://git
 current branch is the demo for rails 3.
 
 h3. rails 2.x branch
-https://github.com/ninjaconcept/acts_as_cinema_example/tree/rails2
+
+"https://github.com/ninjaconcept/acts_as_cinema_example/tree/rails2":https://github.com/ninjaconcept/acts_as_cinema_example/tree/rails2
