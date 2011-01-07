@@ -10,7 +10,7 @@ class YoutoubeTest < Test::Unit::TestCase
     Video.create(:title => "youtube simple url", 
                  :original_input => "http://www.youtube.com/watch?v=NC7fqQE995I&feature=popular")
     v = Video.find_by_title("youtube simple url")
- 
+
     assert_equal "http://www.youtube.com/watch?v=NC7fqQE995I&feature=popular", v.original_input
     assert_equal "http://www.youtube.com/v/NC7fqQE995I&fs=1", v.source_param
   end
@@ -25,7 +25,7 @@ class YoutoubeTest < Test::Unit::TestCase
     
     v.update_attribute(:original_input, "http://vimeo.com/10819887")
     
-    assert_equal "http://vimeo.com/moogaloop.swf?clip_id=10819887", v.source_param    
+    assert_equal "http://vimeo.com/moogaloop.swf?clip_id=10819887", v.source_param
   end
   
   def test_embeded_content
@@ -49,11 +49,12 @@ class YoutoubeTest < Test::Unit::TestCase
   def test_invalid_url
     v = Video.create(:title => "youtube invalid url", 
                  :original_input => "http://www.youtube.com/watch?v=12345")
+
     assert_not_equal 0, v.errors.size
     assert_equal "no valid url", v.errors.on(:original_input)
   end
   def test_ajax_style_url
-    Video.create(:title => "youtube ajax url", 
+    Video.create(:title => "youtube ajax url",
                  :original_input => "http://www.youtube.com/user/Longjeur#p/a/u/2/6LrF3ixb8_4")
     v = Video.find_by_title("youtube ajax url")
 

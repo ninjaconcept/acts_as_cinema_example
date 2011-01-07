@@ -1,7 +1,7 @@
 #   gem install mysql
 development:
   adapter: mysql
-  database: cinema_development
+  database: cinema_r3_development
   username: root
   password:
   socket: /tmp/mysql.sock # other *NIX
@@ -11,14 +11,14 @@ development:
 # Do not set this db to the same as development or production.
 test: &TEST
   adapter: mysql
-  database: cinema_test
+  database: cinema_r3_test
   username: root
   password:
   socket: /tmp/mysql.sock # other *NIX
   
 production:
   adapter: mysql
-  database: cinema
+  database: cinema_r3
   username: root
   password:
   socket: /tmp/mysql.sock # other *NIX
@@ -28,9 +28,8 @@ cucumber:
   
 plugin:
   adapter: mysql
-  database: acts_as_cinema_test
+  database: acts_as_cinema_r3_test
   username: root
   password:
   socket: /tmp/mysql.sock # other *NIX
-  
   

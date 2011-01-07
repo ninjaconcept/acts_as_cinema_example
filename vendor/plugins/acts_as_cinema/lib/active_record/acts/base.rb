@@ -4,7 +4,7 @@ module ActiveRecord
       module VideoSiteParser
         class BaseParser
           attr_accessor :url_patterns, :url_template, :validation_url
-                    
+
           def parse(input, validate_url=true)
             @url_patterns.each do |pattern|
               input.scan(pattern)

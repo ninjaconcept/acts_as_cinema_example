@@ -2,8 +2,6 @@ class CreateVideos < ActiveRecord::Migration
   def self.up
     create_table :videos do |t|
       t.string :title
-      t.string :url
-      t.text :description
       t.timestamps
     end
   end

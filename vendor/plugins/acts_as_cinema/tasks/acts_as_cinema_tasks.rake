@@ -22,8 +22,7 @@ namespace :acts_as_cinema do
       puts "Error occurs during the operation: #{e.message}"
     end
   end
-  
-  
+
   # Regenerate all the converted url for exsiting records
   # Usage:
   #   rake acts_as_cinema:fast_rebuild["model_name"]
@@ -47,5 +46,4 @@ namespace :acts_as_cinema do
       puts "Error occurs during the operation: #{e.message}"
     end
   end
-  
 end
